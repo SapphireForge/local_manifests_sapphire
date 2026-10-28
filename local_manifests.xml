@@ -5,7 +5,7 @@
     <!-- Remotes -->
     <remote name="SapphireForge" fetch="https://github.com/SapphireForge" clone-depth="1" />
     <remote name="Saroj-Tajpuriya" fetch="https://gitlab.com/Saroj-Tajpuriya" clone-depth="1" />
-    <remote name="Evolution-X-Devices" fetch="https://github.com/Evolution-X-Devices" clone-depth="1" />
+    <remote name="lineageos4microg" fetch="https://github.com/lineageos4microg/" />
 
     <!-- Removals -->
 
@@ -20,6 +20,9 @@
     <project path="vendor" name="keys-for-lineage20" remote="SapphireForge" revision="main" />
     <project path="vendor/gms" name="vendor_gms" remote="Saroj-Tajpuriya" revision="alpha-15.2" />
 
+    <!-- MicroG -->
+    <project path="vendor/partner_gms" name="android_vendor_partner_gms" remote="lineageos4microg" revision="master" />
+
     <!-- Hardware -->
-    <project path="hardware/xiaomi" name="hardware_xiaomi" remote="Evolution-X-Devices" revision="vic" />
+    <project path="hardware/xiaomi" name="hardware_xiaomi" remote="SapphireForge" revision="vic" />
 </manifest>
