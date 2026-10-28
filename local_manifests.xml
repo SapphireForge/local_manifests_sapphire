@@ -4,7 +4,6 @@
 
     <!-- Remotes -->
     <remote name="SapphireForge" fetch="https://github.com/SapphireForge" clone-depth="1" />
-    <remote name="Saroj-Tajpuriya" fetch="https://gitlab.com/Saroj-Tajpuriya" clone-depth="1" />
     <remote name="lineageos4microg" fetch="https://github.com/lineageos4microg/" />
 
     <!-- Removals -->
@@ -18,7 +17,6 @@
     <!-- Vendor -->
     <project path="vendor/xiaomi/sapphire" name="vendor_xiaomi_sapphire" remote="SapphireForge" revision="lineage-22.2" />
     <project path="vendor" name="keys-for-lineage20" remote="SapphireForge" revision="main" />
-    <project path="vendor/gms" name="vendor_gms" remote="Saroj-Tajpuriya" revision="alpha-15.2" />
 
     <!-- MicroG -->
     <project path="vendor/partner_gms" name="android_vendor_partner_gms" remote="lineageos4microg" revision="master" />
