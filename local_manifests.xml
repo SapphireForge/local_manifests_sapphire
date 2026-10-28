@@ -22,5 +22,5 @@
     <project path="vendor/partner_gms" name="android_vendor_partner_gms" remote="lineageos4microg" revision="master" />
 
     <!-- Hardware -->
-    <project path="hardware/xiaomi" name="hardware_xiaomi" remote="SapphireForge" revision="vic" />
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="SapphireForge" revision="lineage-22.2" />
 </manifest>
